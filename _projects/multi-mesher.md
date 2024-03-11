@@ -1,14 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Multi-Mesher
+description: A Diffusion Driven 2D to 3D Mesh Reconstruction
+img: assets/img/multi-mesher.png
 importance: 1
-category: work
+category: Robotics & Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-Every project has a beautiful feature showcase page.
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -19,7 +19,13 @@ To give your project a background in the portfolio page, just add the img tag to
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
+
+This project presents a novel approach to single-image 3D reconstruction that leverages novel view synthesis via diffusion with canonical mesh deformation techniques. While prior works (namely Zero-1-to-3 and One-2-3-45) have used diffusion to generate hypothetical novel views, they have focused on NeRFs and SDFs as geometric representations which are later converted to meshes. The method directly predicts meshes and texture, avoiding this multi-stage process. Prior mesh optimization techniques such as Pix2Mesh and Pix2Mesh++ are sensitive to view inconsistencies, so we leverage the PointNet architecture which is better suited for the task. Notably, in contrast to prior mesh optimization techniques that produce only geometry, we aim to propose a network which can predict the texture along with the geometry.
+
+Our approach addresses the challenges posed by the limitations of the optimization pipeline by exploring the strengths of PointNet, a neural network specifically designed for processing 3D point cloud data. Through experimental evaluation, we demonstrate that the fusion of information from multiple views, coupled with the capabilities of PointNet, significantly improves the quality and accuracy of the reconstructed 3D structures compared to traditional methods.
+
+The synergy between multi-view synthesis and PointNet fusion offers a promising avenue for advancing the state-of-the-art in single-image 3D reconstruction. Our findings not only contribute to the refinement of existing methodologies but also underscore the potential for combining neural network architectures with multi-view techniques to enhance the depth and fidelity of 3D reconstructions from single images.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
