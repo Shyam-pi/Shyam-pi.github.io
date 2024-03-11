@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
+title: American Sign Language Detection
+description: A CNN based American Sign Language Detector for Letters
 img: assets/img/taco.png
-importance: 2
+importance: 3
 category: Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 ---

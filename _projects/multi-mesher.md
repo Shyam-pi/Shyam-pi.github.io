@@ -4,7 +4,7 @@ title: Multi-Mesher
 description: A Diffusion Driven 2D to 3D Mesh Reconstruction
 img: assets/img/multi-mesher.png
 importance: 1
-category: Robotics & Computer Vision
+category: Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
