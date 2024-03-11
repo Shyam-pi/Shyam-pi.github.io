@@ -26,7 +26,7 @@
     {
       "name": "Centre for Robotics & Intelligent Systems - BITS Pilani",
       "position": "Undergraduate Thesis",
-      "url": "",
+      "url": "https://www.bits-pilani.ac.in/pilani/centre-for-robotics-and-intelligent-systems/",
       "startDate": "01-2020",
       "endDate": "07-2020",
       "summary": "",
@@ -38,7 +38,7 @@
     {
       "name": "IIIT Bangalore",
       "position": "Computer Vision Research Intern",
-      "url": "",
+      "url": "https://www.iiitb.ac.in/",
       "startDate": "01-2022",
       "endDate": "08-2022",
       "summary": "",
@@ -49,9 +49,9 @@
       ]
     },
     {
-      "name": "Robert Bosch Centre - IISc Bangalore",
+      "name": "Robert Bosch Centre for Cyber Physical Systems - IISc Bangalore",
       "position": "Robotics Research Intern",
-      "url": "",
+      "url": "https://cps.iisc.ac.in/",
       "startDate": "01-2022",
       "endDate": "08-2022",
       "summary": "",
@@ -64,7 +64,7 @@
     {
       "name": "UMD Vision & Learning Lab",
       "position": "Graduate Student Researcher",
-      "url": "",
+      "url": "https://jbhuang0604.github.io/#group",
       "startDate": "02-2023",
       "endDate": "Present",
       "summary": "",
@@ -75,7 +75,7 @@
     {
       "name": "Renesas North America Ltd.",
       "position": "Artificial Intelligence Intern",
-      "url": "",
+      "url": "https://www.renesas.com/us/en",
       "startDate": "05-2023",
       "endDate": "Present",
       "summary": "",
@@ -98,7 +98,7 @@
       "score": "4.00",
       "courses": [
         "Teaching Assistant ENME272, Spring 2023",
-        "Doubles Player - Collegiate Badmintion Team"
+        "Collegiate Badminton Team player"
       ],
       "location":"Maryland, USA"
     },

@@ -14,7 +14,7 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Welcome! I'm an AI Engineer intern at [Renesas North America Ltd.](https://www.renesas.com/us/en) working on developing lightweight ML models for Renesas Edge Devices. My current research focus is on improving the generation and alignment capabilities of large language models. Currently I am pursuing my Robotics masters from the [James Clark SChool of Engineering](https://eng.umd.edu/) at the University of Maryland (UMD), College Park. I'm also working on 3D Computer Vision problems (involving NeRF and 3D GANS) with [Dr. Jia-Bin Huang](https://jbhuang0604.github.io/#group) at his Vision and Learning lab in UMD.
