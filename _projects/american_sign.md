@@ -4,7 +4,7 @@ title: American Sign Language Detection
 description: A CNN based American Sign Language Detector for Letters
 img: assets/img/taco.png
 importance: 3
-category: Computer Vision
+category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

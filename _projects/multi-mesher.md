@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Multi-Mesher
-description: A Diffusion Driven 2D to 3D Mesh Reconstruction
-img: assets/img/multi-mesher.png
+description: A Diffusion Driven single 2D image to 3D Mesh Reconstruction using PointNet architecture
+img: imgs/multi-mesher.png
 importance: 1
-category: Computer Vision
+category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
+title: TerpBot A-Star planning along with Dyanmic Obstacle Avoidance*
+description: Global path planning using A* and local dynamic path planning using potential fields algorithm for TerpBot
 img: assets/img/taco.png
-importance: 1
-category: Robotics
+importance: 6
+category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

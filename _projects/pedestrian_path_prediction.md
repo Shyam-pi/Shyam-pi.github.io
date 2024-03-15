@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
+title: Pedestrians Future Path Estimation
+description: A CNN based pedestrian detection, tracking and future path prediction pipeline
 img: assets/img/taco.png
 importance: 4
-category: Computer Vision
+category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

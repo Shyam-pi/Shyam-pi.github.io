@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Leader-Follower using TerpBot*
-description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated using MiDaS Monocular Depth Estimation
+title: Transformer Robot for Pick & Place applications*
+description: End-to-end modelling of a mobile manipulator integrated with ROS package for joint control to simulate an autonomous pick & place task in Gazebo
 img: assets/img/taco.png
-importance: 7
+importance: 8
 category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---

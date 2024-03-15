@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Leader-Follower using TerpBot*
-description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated using MiDaS Monocular Depth Estimation
+title: Playing Atari with Deep Reinforcement Learning
+description: Implementation of the famous Deep Reinforcement Learning paper for playing multiple Atari games
 img: assets/img/taco.png
-importance: 7
-category: Computer Vision & Robotics
+importance: 2
+category: General AI
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

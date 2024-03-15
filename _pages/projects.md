@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Note - Some Robotics projects might have a significant Computer Vision element to them.
+description: <p>A list of my prominent projects over the past years</p> * Robotics projects
 nav: true
 nav_order: 2
-display_categories: [Computer Vision, Robotics, fun]
+display_categories: [Computer Vision & Robotics, General AI, Virtual Reality, Other]
 horizontal: false
 ---
 

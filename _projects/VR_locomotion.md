@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Leader-Follower using TerpBot*
-description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated using MiDaS Monocular Depth Estimation
-img: assets/img/taco.png
-importance: 7
-category: Computer Vision & Robotics
-related_publications: einstein1956investigations, einstein1950meaning
+title: Uncommon locomotion interfaces
+description: Implementation of uncommon VR locomotion interfaces
+img: imgs/vr_rescue.png
+redirect: https://sites.google.com/view/vr-hostage-rescue-game/final-report?authuser=2
+importance: 2
+category: Virtual Reality
 ---
 
-<!-- Every project has a beautiful feature showcase page.
+Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -19,9 +19,7 @@ To give your project a background in the portfolio page, just add the img tag to
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    --- -->
-
-This project explores the problem of collaborative perception where multiple robots co-exist in an environment and one of the robot’s RGB camera undergoes malfunction. As such, that robot may not be able to effectively carry out perception tasks such as navigating in the environment. We consider two of such tasks — segmentation. We are motivated by scenarios where other robots in the environment may be able to assist the malfunctioning robot. We propose to solve this problem using the powerful vision transformer auto encoders. We present TACO, which reconstructs the view for the second robot using only the RGB input from camera 1 and depth input from camera 2. We further make the problem complex by assuming that there is no stereo camera present. Vision transformer, particularly masked autoencoders are comparatively less explored in the context of robotics problem and cannot be directly applied due to their random priors. We evaluate our framework for the downstream task of segmentation in synthetically produced real world dataset. Our results show the potential of computer vision frameworks in real world robotics problems. We extensively evaluate TACO for segmentation in synthetically produced real world dataset for four different environments, our framework leads to a 2.9X improvement compared to without using TACO.
+    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

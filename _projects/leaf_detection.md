@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Leader-Follower using TerpBot*
-description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated using MiDaS Monocular Depth Estimation
+title: Leaf Detection
+description: A YOLO based Leaf Detection pipeline to aid plant health monitoring for farm robots
 img: assets/img/taco.png
-importance: 7
+importance: 5
 category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---

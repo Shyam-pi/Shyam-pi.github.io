@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Leader-Follower using TerpBot*
-description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated using MiDaS Monocular Depth Estimation
-img: assets/img/taco.png
-importance: 7
-category: Computer Vision & Robotics
+title: Voice anti-spoofing
+description: A lightweight Support Vector Machine (SVM) based anti-spoofing model which can distinguish between audio from a real human and a playback device
+img: imgs/multi-mesher.png
+importance: 1
+category: General AI
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
@@ -21,7 +21,11 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     --- -->
 
-This project explores the problem of collaborative perception where multiple robots co-exist in an environment and one of the robot’s RGB camera undergoes malfunction. As such, that robot may not be able to effectively carry out perception tasks such as navigating in the environment. We consider two of such tasks — segmentation. We are motivated by scenarios where other robots in the environment may be able to assist the malfunctioning robot. We propose to solve this problem using the powerful vision transformer auto encoders. We present TACO, which reconstructs the view for the second robot using only the RGB input from camera 1 and depth input from camera 2. We further make the problem complex by assuming that there is no stereo camera present. Vision transformer, particularly masked autoencoders are comparatively less explored in the context of robotics problem and cannot be directly applied due to their random priors. We evaluate our framework for the downstream task of segmentation in synthetically produced real world dataset. Our results show the potential of computer vision frameworks in real world robotics problems. We extensively evaluate TACO for segmentation in synthetically produced real world dataset for four different environments, our framework leads to a 2.9X improvement compared to without using TACO.
+This project presents a novel approach to single-image 3D reconstruction that leverages novel view synthesis via diffusion with canonical mesh deformation techniques. While prior works (namely Zero-1-to-3 and One-2-3-45) have used diffusion to generate hypothetical novel views, they have focused on NeRFs and SDFs as geometric representations which are later converted to meshes. The method directly predicts meshes and texture, avoiding this multi-stage process. Prior mesh optimization techniques such as Pix2Mesh and Pix2Mesh++ are sensitive to view inconsistencies, so we leverage the PointNet architecture which is better suited for the task. Notably, in contrast to prior mesh optimization techniques that produce only geometry, we aim to propose a network which can predict the texture along with the geometry.
+
+Our approach addresses the challenges posed by the limitations of the optimization pipeline by exploring the strengths of PointNet, a neural network specifically designed for processing 3D point cloud data. Through experimental evaluation, we demonstrate that the fusion of information from multiple views, coupled with the capabilities of PointNet, significantly improves the quality and accuracy of the reconstructed 3D structures compared to traditional methods.
+
+The synergy between multi-view synthesis and PointNet fusion offers a promising avenue for advancing the state-of-the-art in single-image 3D reconstruction. Our findings not only contribute to the refinement of existing methodologies but also underscore the potential for combining neural network architectures with multi-view techniques to enhance the depth and fidelity of 3D reconstructions from single images.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
