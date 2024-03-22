@@ -4,8 +4,8 @@ title: Leaf Detection
 description: A YOLO based Leaf Detection pipeline to aid plant health monitoring for farm robots
 img: imgs/leaf_detection/leaf_detect.png
 importance: 5
-category: Computer Vision & Robotics
-related_publications: einstein1956investigations, einstein1950meaning
+category: Computer Vision
+related_publications: 
 ---
 
 **Title: Deep Learning for Leaf Detection: Utilizing YOLO Model with Transfer Learning**

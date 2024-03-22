@@ -3,8 +3,8 @@ layout: page
 title: Leader-Follower using TerpBot*
 description: TerpBot following a human leader along with dynamic obstacle avoidance using a synthetic 2D point cloud generated with MiDaS Monocular Depth Estimation
 img: imgs/leader_follower/logo.png
-importance: 7
-category: Computer Vision & Robotics
+importance: 3
+category: Robotics
 related_publications:
 ---
 

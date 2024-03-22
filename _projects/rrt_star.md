@@ -3,8 +3,8 @@ layout: page
 title: RRT* Smart Offline Planning along with Live Planning for TerpBot*
 description: Global path planning using A* and local dynamic path planning using potential fields algorithm for TerpBot
 img: imgs/rrt_star/logo.png
-importance: 6
-category: Computer Vision & Robotics
+importance: 2
+category: Robotics
 related_publications:
 ---
 

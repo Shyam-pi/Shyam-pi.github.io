@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Autoencoder Inpainting
+title: Masked Autoencoder Inpainting
 description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
 img: imgs/taco.png
 importance: 2
 redirect: https://drive.google.com/file/d/1Kgoe6emNbxs78YURYTRsUdfGddBoZn7Z/view
-category: Computer Vision & Robotics
+category: Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

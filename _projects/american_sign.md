@@ -4,7 +4,7 @@ title: American Sign Language (ASL) Detection
 description: A CNN and LSTM based American Sign Language Detector for Letters from video feeds
 img: imgs/asl/asl_logo.png
 importance: 3
-category: Computer Vision & Robotics
+category: Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

@@ -3,8 +3,8 @@ layout: page
 title: TerpBot
 description: A RaspberryPi based Unicycle Mobile Robot built from scratch
 img: imgs/terpbot/hardware.png
-importance: 6
-category: Computer Vision & Robotics
+importance: 1
+category: Robotics
 related_publications:
 ---
 
