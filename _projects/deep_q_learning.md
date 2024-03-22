@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Playing Atari with Deep Reinforcement Learning
-description: Implementation of the famous Deep Reinforcement Learning paper for playing multiple Atari games
-img: assets/img/taco.png
+description: Re-implementation of the famous Deep Reinforcement Learning paper from scratch for playing multiple Atari games
+img: imgs/atari-envs.gif
 importance: 2
 category: General AI
 related_publications: einstein1956investigations, einstein1950meaning
+redirect: https://docs.google.com/presentation/d/1hrN37tCzoV1zJjXvaIwVWNeviku9rFVG/edit?usp=sharing&ouid=105774915274009785554&rtpof=true&sd=true
 ---
 
 <!-- Every project has a beautiful feature showcase page.

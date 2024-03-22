@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-Mesher
-description: A Diffusion Driven single 2D image to 3D Mesh Reconstruction using PointNet architecture
+description: A Diffusion Driven single 2D image to 3D Mesh Reconstruction using Zero123 and PointNet architecture
 img: imgs/multi-mesher/multi-mesher.png
 importance: 1
 category: Computer Vision & Robotics
