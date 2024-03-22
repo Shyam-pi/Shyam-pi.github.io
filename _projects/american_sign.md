@@ -1,83 +1,51 @@
 ---
 layout: page
-title: American Sign Language Detection
-description: A CNN based American Sign Language Detector for Letters
-img: assets/img/taco.png
+title: American Sign Language (ASL) Detection
+description: A CNN and LSTM based American Sign Language Detector for Letters from video feeds
+img: imgs/asl/asl_logo.png
 importance: 3
 category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Note: For a demo of this project please click on this link
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- Communication Gap: There is a fundamental barrier in communication between ASL users and people who are not familiar with ASL. This gap can lead to misunderstandings, exclusion from conversations, and overall difficulties in social and professional interactions for ASL users.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
+- Variability in Signing Styles: Just like spoken languages, ASL has individualized styles. Different ASL users may have unique ways of signing, including variations in hand shapes and movements. These nuances can make it difficult for even experienced interpreters or other ASL users to understand every individual's signing style.
 
-This project explores the problem of collaborative perception where multiple robots co-exist in an environment and one of the robot’s RGB camera undergoes malfunction. As such, that robot may not be able to effectively carry out perception tasks such as navigating in the environment. We consider two of such tasks — segmentation. We are motivated by scenarios where other robots in the environment may be able to assist the malfunctioning robot. We propose to solve this problem using the powerful vision transformer auto encoders. We present TACO, which reconstructs the view for the second robot using only the RGB input from camera 1 and depth input from camera 2. We further make the problem complex by assuming that there is no stereo camera present. Vision transformer, particularly masked autoencoders are comparatively less explored in the context of robotics problem and cannot be directly applied due to their random priors. We evaluate our framework for the downstream task of segmentation in synthetically produced real world dataset. Our results show the potential of computer vision frameworks in real world robotics problems. We extensively evaluate TACO for segmentation in synthetically produced real world dataset for four different environments, our framework leads to a 2.9X improvement compared to without using TACO.
+- Complexity of Sign Languages: ASL is not just about hand gestures; it also encompasses non-manual components such as facial expressions and body movements. These elements are integral to conveying accurate information and emotions, adding layers of complexity to the language.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+This mandates for an ASL recognition AI model which can successfully detect different gestures. This project showcases a model which is designed to interpret ASL by analyzing gesture video frames. It processes the visual information of ASL signs and translates them into English words. This approach can potentially standardize the interpretation of various signing styles, making ASL more accessible to non-users. The projct also involved usage of this model with live feed along with a graphical interface, a demo of which can be found below :
+
+
+<div class="row justify-content-center">
+    <div class="col-sm-auto mt-3 mt-md-0 text-center">
+        <a href="https://drive.google.com/file/d/1v7pSkC9YUxCdeBODcFnZoVWaNTfSUju-/view?resourcekey">
+            {% include figure.html path="imgs/asl/asl_demo.png" title="ASL Demo" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<div class="caption">
+    Demo showcasing the ASL model along with the GUI interface. Click on the above image to open the video link.
+</div>
+
+The model for ASL recognition uses different GRU and LSTM layers with appropriate hyper-parameters. The model pipeline is as follows:
+- The feature vectors are extracted using InceptionResNetV2 and passed to the model.
+- The video frames are classified into objects with InceptionResNet-2; then, the task is to create key points stacked for video frames
+- The first layer of the neural network is composed of a combination of LSTM and GRU. 
+- This composition can be used to capture the semantic dependencies in a more effective way;
+- Dropout is used to reduce overfitting and improve the model’s generalization ability;
+- The final output is obtained through the ‘softmax’ function
+The following figure is a graphical representation of the model :
+
+<div class="row justify-content-center">
+    <div class="col-sm-auto mt-3 mt-md-0 text-center">
+        {% include figure.html path="imgs/asl/asl_pipeline.png" title="ASL model pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    CNN model pipeline used for the ASL recognition task
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

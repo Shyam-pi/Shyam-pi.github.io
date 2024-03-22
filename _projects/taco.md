@@ -2,7 +2,7 @@
 layout: page
 title: Autoencoder Inpainting
 description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
-img: assets/img/taco.png
+img: imgs/taco.png
 importance: 2
 redirect: https://drive.google.com/file/d/1Kgoe6emNbxs78YURYTRsUdfGddBoZn7Z/view
 category: Computer Vision & Robotics

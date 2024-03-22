@@ -2,82 +2,54 @@
 layout: page
 title: Leaf Detection
 description: A YOLO based Leaf Detection pipeline to aid plant health monitoring for farm robots
-img: assets/img/taco.png
+img: imgs/leaf_detection/leaf_detect.png
 importance: 5
 category: Computer Vision & Robotics
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Title: Deep Learning for Leaf Detection: Utilizing YOLO Model with Transfer Learning**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Introduction:**
+In recent years, deep learning techniques have revolutionized the field of computer vision, enabling robust and efficient object detection in various domains. One such application is leaf detection, which plays a crucial role in fields like agriculture, botany, and environmental science. In this project, we employ the YOLO (You Only Look Once) model, a state-of-the-art deep learning architecture, for leaf detection. By utilizing transfer learning, we tailor the model to our specific leaf dataset, enhancing its performance and adaptability.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
+**Objective:**
+The primary objective of this project is to develop an accurate and efficient leaf detection system using deep learning techniques. By training a YOLO model with transfer learning on a custom leaf dataset, we aim to achieve high precision in detecting and localizing leaves within images. This was developed to be used in tandem with an in-house agricultural robot with vision capabilities.
 
-This project explores the problem of collaborative perception where multiple robots co-exist in an environment and one of the robot’s RGB camera undergoes malfunction. As such, that robot may not be able to effectively carry out perception tasks such as navigating in the environment. We consider two of such tasks — segmentation. We are motivated by scenarios where other robots in the environment may be able to assist the malfunctioning robot. We propose to solve this problem using the powerful vision transformer auto encoders. We present TACO, which reconstructs the view for the second robot using only the RGB input from camera 1 and depth input from camera 2. We further make the problem complex by assuming that there is no stereo camera present. Vision transformer, particularly masked autoencoders are comparatively less explored in the context of robotics problem and cannot be directly applied due to their random priors. We evaluate our framework for the downstream task of segmentation in synthetically produced real world dataset. Our results show the potential of computer vision frameworks in real world robotics problems. We extensively evaluate TACO for segmentation in synthetically produced real world dataset for four different environments, our framework leads to a 2.9X improvement compared to without using TACO.
+**Methodology:**
+1. **Dataset Collection and Preprocessing:** We used a diverse dataset consisting of images containing various types of leaves in different environmental conditions from the internet. Preprocessing steps involved data augmentation techniques such as rotation, flipping, and resizing to enhance the dataset's diversity and improve model generalization.
+
+2. **Model Architecture:** We chose YOLO (You Only Look Once) as our base architecture due to its real-time processing capabilities and high accuracy. YOLO divides the input image into a grid and predicts bounding boxes and class probabilities for each grid cell simultaneously.
+
+3. **Transfer Learning:** To adapt the YOLO model to our leaf detection task, we employed transfer learning. We initialized the network with weights pre-trained on a large-scale dataset and fine-tuned it on our leaf dataset. This approach leverages the knowledge learned from a general dataset and allows the model to specialize in detecting leaves.
+
+4. **Training:** The training process involved optimizing the model parameters using backpropagation and gradient descent. We utilized tools like CUDA for GPU acceleration to expedite training and minimize computational time.
+
+<div class="row justify-content-center">
+    <div class="col-sm-auto mt-3 mt-md-0 text-center">
+        {% include figure.html path="imgs/leaf_detection/yolo.jpg" title="YOLO architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Graphical representation of YOLO model used for the leaf detection task
+</div>
+
+
+**Results:**
+Our trained YOLO model achieved promising results in leaf detection, demonstrating high precision and recall rates. The model successfully localized leaves within images across various backgrounds and lighting conditions. Additionally, the transfer learning approach enabled efficient training with limited annotated data, showcasing the adaptability of deep learning techniques to domain-specific tasks.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="imgs/leaf_detection/leaf_example_2.jpg" title="easy example" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="imgs/leaf_detection/leaf_example.png" title="difficult example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+   (Left) Showcases the model's qualitative performance on a simpler example with more isolated leaves (Right) Showcases the model's leaf detection capabilities in a more complicated image with dense leaves
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+**Conclusion:**
+In conclusion, this project demonstrates the effectiveness of deep learning, specifically the YOLO model with transfer learning, in leaf detection tasks. By leveraging the power of convolutional neural networks and transfer learning, we have developed a robust and adaptable solution for automated leaf detection. This technology holds great potential in various fields, offering opportunities for innovation and advancement in agricultural, botanical, and environmental research domains.
