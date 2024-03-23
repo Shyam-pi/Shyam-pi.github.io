@@ -1,9 +1,11 @@
 **TRACK & FIELD**
 
-<!-- That's me, in my element, flying up in the air for a good ol' badminton smash, which happens to be a regular occurence every other evening (bless my knees and shins). Any form of sports keeps me up in high spirits (Hey, 'A sound mind in a sound body', after all), and badminton happens to be my top priority when it comes to sports in my life now.
+<!-- If someone tried to take at jab at me by saying that I look like I'm running towards some hot momos at the end of the race's finishing line, I probably would have agreed. I wasn't a photogenic track and field athlete at all, especially when I was hard focused on the race, CLEARLY. 
 
-I am a doubles player for the <a href='https://umdclubbadminton.weebly.com/team.html'>UMCP's collegiate badminton team</a>. Still on a draught for medals though, but hey, in my defense, it's only been 4 years since I started playing (hard coping, I know 😔) -->
+I was a sprinter and long jumper for <a href='https://www.instagram.com/bitspilani_athletics/'>BITS Pilani's Track & Field team</a> during 2016-2020. I made my way up from almost fainting after completing just one 400 meter warm-up lap in 2016 to being one of my college's fastest sprinters in 2020, which I am indeed a little proud about. It definitely is that one sport which instilled the need for discipline in me, and lessons from which I carry with me till date. Over the course of 4 years, I won several medals in 100m, 200m, 400m, 4x100m, 4x400m and long jump events across different inter-collegiate meets. -->
 
-That's me, in my element, soaring through the air for a good ol' badminton smash, a regular occurrence every other evening (bless my knees and shins). Any form of sports keeps my spirits high, and Badminton happens to be at the top of my sports life right now. After all, 'A sound mind in a sound body,' right?
+If someone tries to take a jab at me by saying that I look like I'm sprinting towards some hot momos at the end of the race's finishing line in the photo, I probably would agree. I wasn't the most photogenic track and field athlete, clearly, especially when I was intensely focused on my events.
 
-I am a doubles player for the <a href='https://umdclubbadminton.weebly.com/team.html'>UMCP collegiate badminton team</a>. Still on a drought for medals, though. But hey, in my defense, it's only been 4 years since I started playing (hard coping, I know 😔)
+I served as a sprinter and long jumper for <a href='https://www.instagram.com/bitspilani_athletics/'>BITS Pilani's Track & Field team</a> during 2016-2020. I made my way up from nearly fainting after completing just one 400-meter warm-up lap in 2016 to becoming one of my college's fastest sprinters by 2020, a fact I'm a little proud of. Sprinting truly instilled discipline in me, and its lessons are ones I carry with me to this day.
+
+Over the course of four years, I earned several medals in events including the 100m, 200m, 400m, 4x100m, 4x400m relays, and long jump across various inter-collegiate meets. And interestingly, this photo is from the last ever track & field event I competed in.

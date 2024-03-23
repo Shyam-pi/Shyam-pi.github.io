@@ -6,4 +6,4 @@ I am a doubles player for the <a href='https://umdclubbadminton.weebly.com/team.
 
 That's me, in my element, soaring through the air for a good ol' badminton smash, a regular occurrence every other evening (bless my knees and shins). Any form of sports keeps my spirits high, and Badminton happens to be at the top of my sports life right now. After all, 'A sound mind in a sound body,' right?
 
-I am a doubles player for the <a href='https://umdclubbadminton.weebly.com/team.html'>UMCP collegiate badminton team</a>. Still on a drought for medals, though. But hey, in my defense, it's only been 4 years since I started playing (hard coping, I know 😔)
+I am a doubles player for the <a href='https://umdclubbadminton.weebly.com/team.html'>UMCP collegiate badminton team (2023 - 2024)</a>. Still on a drought for medals, though. But hey, in my defense, it's only been 4 years since I started playing (hard coping, I know 😔)

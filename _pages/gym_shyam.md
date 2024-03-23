@@ -1,0 +1,3 @@
+**GYM**
+
+I realized that the various sports I engage in primarily focus on cardio, which prompted me to consider adding some gym sessions to my routine.  So here's me going strong with my 2024 resolution to be a regular at the gym, and it's been a game-changer. Not only has it helped me build muscle, but it has also brought a much-needed structure to my life. Won't say no to a bit of structure in my life now, will I? 
