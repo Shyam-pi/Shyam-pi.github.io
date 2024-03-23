@@ -9,7 +9,6 @@ related_publications:
 ---
 
 **Note:** This project was done in collaboration with <a href='https://github.com/vedran97'>Vedant Ranade</a> and <a href='https://github.com/SakshamV'>Saksham Verma</a>.
-**DEMO**
 
 Click on the following image to get redirected to a demo video of the project. It showcases how the TerpBot navigates a complex maze with RRT* Smart algorithm and avoids live obstacles (orange cones), detected using a combination of YOLO and MiDaS monocular depth estimation models, using a Potential Fields live planner.
 

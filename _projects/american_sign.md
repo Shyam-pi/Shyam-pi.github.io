@@ -5,7 +5,7 @@ description: A CNN and LSTM based American Sign Language Detector for Letters fr
 img: imgs/asl/asl_logo.png
 importance: 3
 category: Computer Vision
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications:
 ---
 
 Note: For a demo of this project please click on this link

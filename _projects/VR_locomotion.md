@@ -1,81 +1,25 @@
 ---
 layout: page
-title: Uncommon locomotion interfaces
-description: Implementation of uncommon VR locomotion interfaces
-img: imgs/vr_rescue.png
-redirect: https://sites.google.com/view/vr-hostage-rescue-game/final-report?authuser=2
+title: Exploring Immersive Locomotion Interfaces in Virtual Reality
+description: Implementation of different common and uncommon VR locomotion interfaces
+img: imgs/vr_locomotion.png
 importance: 2
 category: Virtual Reality
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Click on this <a href="https://www.youtube.com/watch?v=zxOkct_PLKA&ab_channel=sanjaliyadav">link</a> to get redirected to a demo video of the project.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Introduction:**
+In the realm of Virtual Reality (VR), locomotion interfaces play a crucial role in enhancing user experience and immersion. In this project, we explore three distinct locomotion methods: Flying, Teleportation with Orientation Selection, and Steering-based Locomotion (PenguFly). Each interface offers unique mechanisms for navigating virtual environments, catering to different user preferences and comfort levels.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Flying Interface :**
+The Flying interface empowers users to control the virtual camera's movement using the thumbstick on their controller. By tilting the thumbstick in various directions, users can navigate through the virtual space. The speed of movement is proportional to the tilt intensity, providing a seamless and intuitive experience. Additionally, the interface ensures that the forward direction aligns with the user's gaze, promoting natural movement within the virtual environment.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Teleportation with Orientation Selection Interface :**
+Teleportation with Orientation Selection offers users the flexibility to choose their destination and orientation in the virtual world. By casting a ray into the scene, users can select a location to teleport to, visualized through a LineRenderer. Following the location selection, users can specify their desired orientation by tilting the thumbstick left or right. This two-step process ensures precise navigation and control, enhancing user agency and comfort.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+**Steering-based Locomotion (PenguFly) Interface :**
+PenguFly introduces a more complex locomotion interface that integrates steering-based movement with immersive VR experiences. Users navigate the virtual environment by mimicking physical movements, such as walking or running, detected through sensors or controllers. This method combines real-world actions with virtual locomotion, offering a novel and engaging experience. A video feed showcasing both the virtual content and the user's movements in the real world accompanies the PenguFly interface, providing a comprehensive overview of its functionality.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+**Conclusion:**
+In this project, we have explored various locomotion interfaces in VR, ranging from traditional methods like Flying and Teleportation to advanced techniques like Steering-based Locomotion (PenguFly). Each interface offers distinct advantages and caters to different user preferences, ultimately enriching the VR experience. By understanding and implementing these locomotion methods, we aim to enhance immersion and accessibility in virtual environments, paving the way for innovative VR applications in diverse fields.

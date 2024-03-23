@@ -5,7 +5,7 @@ permalink: /projects/
 description: <p>A list of my prominent projects over the past years</p> * Robotics projects which use considerable Computer Vision components
 nav: true
 nav_order: 2
-display_categories: [Computer Vision, Robotics, General AI, Virtual Reality, Other]
+display_categories: [Computer Vision, Robotics, General AI, Virtual Reality]
 horizontal: false
 ---
 
