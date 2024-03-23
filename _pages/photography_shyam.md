@@ -1,0 +1,5 @@
+**PHOTOGRAPHY**
+
+<!-- This is an unedited photograph that I clicked of a very pretty evening sky when I was waiting for a metro train. I love clicking photos of everything and everyone, be it people, sky, birds, insects or water bodies, and I've been told that I have a good eye for views and symmetry. I also happen to be the default photographer for all of my friends by choice, and I think it's high time I start charging them for it 😤 -->
+
+Behold, an unedited gem I captured of a breathtaking evening sky whilst waiting for a metro train. I am very passionate about photography, and I find beauty in everything – from people and skies to birds, insects, and water bodies. With a knack for capturing captivating views and symmetry (not self proclaimed, believe me pls), I've become the go-to photographer among my friends and family, by choice, of course. Perhaps it's time I start charging them for my skills! 😤
