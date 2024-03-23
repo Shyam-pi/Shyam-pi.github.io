@@ -139,7 +139,7 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Python (advanced)", "MATLAB (intermediate)", "Java (intermediate)", "C++ (beginner)", "C (beginner)", "C# (beginner)"]
+      "keywords": ["Python (advanced)", "C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)", "C (beginner)"]
     },
     {
       "name": "ML and CV tools",
