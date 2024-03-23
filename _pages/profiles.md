@@ -45,6 +45,20 @@ profiles:
       <p>30th Sep, 2023</p>
 
   - align: left
+    image: aquarium_1.jpg
+    content: aquarium_shyam.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>"After all this time?", "Always."</p>
+
+  - align: right
+    image: gaming.jpg
+    content: gaming_shyam.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Part of life</p>
+
+  - align: left
     image: interstellar.gif
     content: movies_shyam.md
     image_circular: false # crops the image to make it circular
