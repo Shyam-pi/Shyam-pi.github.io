@@ -8,4 +8,4 @@ If someone tries to take a jab at me by saying that I look like I'm sprinting to
 
 I served as a sprinter and long jumper for <a href='https://www.instagram.com/bitspilani_athletics/'>BITS Pilani's Track & Field team</a> during 2016-2020. I made my way up from nearly fainting after completing just one 400-meter warm-up lap in 2016 to becoming one of my college's fastest sprinters by 2020, a fact I'm a little proud of. Sprinting truly instilled discipline in me, and its lessons are ones I carry with me to this day.
 
-Over the course of four years, I earned several medals in events including the 100m, 200m, 400m, 4x100m, 4x400m relays, and long jump across various inter-collegiate meets. And interestingly, this photo is from the last ever track & field event I competed in.
+Over the course of four years, I earned several medals in events including the 100m, 200m, 400m, 4x100m, 4x400m, and long jump across various inter-collegiate meets. And interestingly, this photo is from the last ever track & field event I competed in.
