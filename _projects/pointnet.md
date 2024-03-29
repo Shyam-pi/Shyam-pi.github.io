@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Masked Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
-img: imgs/taco_new.png
-importance: 2
-redirect: https://drive.google.com/file/d/1Kgoe6emNbxs78YURYTRsUdfGddBoZn7Z/view
+title: Classifying & Segmenting Point Clouds
+description: A PointNet based architecture for classification and segmentation in pointclouds  
+img: imgs/pointnet.gif
+importance: 5
+redirect: https://github.com/Shyam-pi/Point-Cloud-Classification-and-Segmentation/tree/main
 category: Computer Vision
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 <!-- Every project has a beautiful feature showcase page.

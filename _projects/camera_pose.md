@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Masked Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
-img: imgs/taco_new.png
-importance: 2
-redirect: https://drive.google.com/file/d/1Kgoe6emNbxs78YURYTRsUdfGddBoZn7Z/view
+title: Camera Pose Estimation
+description: Implementation of pose estimation of a camera observing a planar object using homography techniques
+img: imgs/camera_pose.png
+importance: 11
+redirect: https://github.com/Shyam-pi/Camera-Pose-Estimation-using-Homography
 category: Computer Vision
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 <!-- Every project has a beautiful feature showcase page.

@@ -9,6 +9,7 @@ related_publications:
 ---
 
 **Note:** This project was done in collaboration with <a href='https://github.com/vedran97'>Vedant Ranade</a> and <a href='https://github.com/SakshamV'>Saksham Verma</a>.
+
 **DEMO**
 
 Click on the following image to get redirected to a demo video of the project. It showcases how the TerpBot trying to detect and follow a human leader while avoiding any dynamic obstacles in its path, detected using a combination of YOLO and MiDaS monocular depth estimation models.

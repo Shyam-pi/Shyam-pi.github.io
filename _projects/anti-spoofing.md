@@ -24,10 +24,11 @@ Click on the following image to get redirected to a demo video of the project:
     Demo showcasing the voice authentication model deployed on the Renesas voice board
 </div>
 
-**Introduction:**
+**INTRODUCTION**
+
 In this project I developed a voice authentication system for a Renesas voice board, capable of capturing voice samples and distinguishing between genuine and spoofed voices. By leveraging advanced signal processing techniques and machine learning algorithms, we aim to enhance security measures and ensure robust authentication protocols for Renesas voice boards.
 
-**Key Components:**
+**KEY COMPONENTS**
 
 1. **Voice Capture Module:**
    - Utilize a Renesas voice board equipped with a microphone to capture voice samples.
@@ -48,7 +49,7 @@ In this project I developed a voice authentication system for a Renesas voice bo
 5. **System Integration:**
    - Integrate the voice authentication system with the Renesas voice board for live testing.
 
-**Project Workflow:**
+**PROJECT WORKFLOW**
 
 1. **Voice Capture:**
    - Renesas board detects trigger phrase "Hi Renesas" and initiates voice capture.
@@ -70,5 +71,6 @@ In this project I developed a voice authentication system for a Renesas voice bo
    - Integrate the trained model with the Renesas board and playback devices for real-world testing.
    - Evaluate system performance by testing with a diverse range of voice samples and spoofing attempts.
 
-**Conclusion:**
+**CONCLUSION**
+
 This project demonstrates the potential of using Renesas boards for implementing advanced voice authentication systems. By leveraging signal processing techniques and machine learning algorithms, we aim to develop a robust and reliable system capable of accurately distinguishing between genuine and spoofed voices. With further refinement and testing, our voice authentication system holds promise for enhancing security measures in various applications, including access control, authentication, and identity verification.

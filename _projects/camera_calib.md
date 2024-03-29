@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Masked Autoencoder Inpainting
-description: A Transformer-based Autoencoder for Collaborative Perception by Image Inpainting
-img: imgs/taco_new.png
-importance: 2
-redirect: https://drive.google.com/file/d/1Kgoe6emNbxs78YURYTRsUdfGddBoZn7Z/view
+title: Camera Calibration
+description: Implementation of Camera calibration, using Direct Linear Transform and by using out-of-the-box OpenCV functions  
+img: imgs/camera_calib.jpg
+importance: 10
+redirect: https://github.com/Shyam-pi/Camera-Calibration
 category: Computer Vision
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 <!-- Every project has a beautiful feature showcase page.

@@ -3,7 +3,7 @@ layout: page
 title: Pedestrians Future Path Prediction
 description: A CNN and bi-directional LSTM based pedestrian detection, tracking and future path prediction pipeline
 img: imgs/pedestrian_path_pred.png
-importance: 4
+importance: 6
 category: Computer Vision
 related_publications: einstein1956investigations, einstein1950meaning
 redirect: https://docs.google.com/presentation/d/1grWEiA7yccSRW8maPyjAD4_BSqFMu-gs/edit?usp=drive_link&ouid=105774915274009785554&rtpof=true&sd=true

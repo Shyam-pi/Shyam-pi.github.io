@@ -1,23 +1,16 @@
 ---
 layout: page
-title: American Sign Language (ASL) Detection
-description: A CNN and LSTM based American Sign Language Detector for Letters from video feeds
-img: imgs/asl/asl_logo.png
+title: American Sign Language Detection
+description: A CNN and LSTM based American Sign Language (ASL) Detector for Letters from video feeds
+img: imgs/asl/asl_logo_new.jpg
 importance: 3
 category: Computer Vision
 related_publications:
 ---
 
-Note: For a demo of this project please click on this link
+**DEMO**
 
-- Communication Gap: There is a fundamental barrier in communication between ASL users and people who are not familiar with ASL. This gap can lead to misunderstandings, exclusion from conversations, and overall difficulties in social and professional interactions for ASL users.
-
-- Variability in Signing Styles: Just like spoken languages, ASL has individualized styles. Different ASL users may have unique ways of signing, including variations in hand shapes and movements. These nuances can make it difficult for even experienced interpreters or other ASL users to understand every individual's signing style.
-
-- Complexity of Sign Languages: ASL is not just about hand gestures; it also encompasses non-manual components such as facial expressions and body movements. These elements are integral to conveying accurate information and emotions, adding layers of complexity to the language.
-
-This mandates for an ASL recognition AI model which can successfully detect different gestures. This project showcases a model which is designed to interpret ASL by analyzing gesture video frames. It processes the visual information of ASL signs and translates them into English words. This approach can potentially standardize the interpretation of various signing styles, making ASL more accessible to non-users. The projct also involved usage of this model with live feed along with a graphical interface, a demo of which can be found below :
-
+A demo showcasing the ASL model along with the GUI interface is available below:
 
 <div class="row justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0 text-center">
@@ -31,14 +24,29 @@ This mandates for an ASL recognition AI model which can successfully detect diff
     Demo showcasing the ASL model along with the GUI interface. Click on the above image to open the video link.
 </div>
 
-The model for ASL recognition uses different GRU and LSTM layers with appropriate hyper-parameters. The model pipeline is as follows:
-- The feature vectors are extracted using InceptionResNetV2 and passed to the model.
-- The video frames are classified into objects with InceptionResNet-2; then, the task is to create key points stacked for video frames
-- The first layer of the neural network is composed of a combination of LSTM and GRU. 
-- This composition can be used to capture the semantic dependencies in a more effective way;
-- Dropout is used to reduce overfitting and improve the model’s generalization ability;
-- The final output is obtained through the ‘softmax’ function
-The following figure is a graphical representation of the model :
+**INTRODUCTION**
+
+- **Communication Gap**: There exists a fundamental barrier in communication between ASL users and individuals unfamiliar with ASL. This gap can lead to misunderstandings, exclusion from conversations, and overall difficulties in social and professional interactions for ASL users.
+
+- **Variability in Signing Styles**: Similar to spoken languages, ASL exhibits individualized styles. Different ASL users may have unique ways of signing, including variations in hand shapes and movements. These nuances can challenge even experienced interpreters or other ASL users to understand every individual's signing style.
+
+- **Complexity of Sign Languages**: ASL encompasses more than just hand gestures; it also includes non-manual components such as facial expressions and body movements. These elements are integral to conveying accurate information and emotions, adding layers of complexity to the language.
+
+This underscores the need for an ASL recognition AI model capable of successfully detecting different gestures. This project presents a model designed to interpret ASL by analyzing gesture video frames. It processes the visual information of ASL signs and translates them into English words. This approach has the potential to standardize the interpretation of various signing styles, thereby making ASL more accessible to non-users.
+
+**OBJECTIVE**
+
+The primary objective of this project is to develop an accurate and efficient ASL detection system using a combination of CNN and LSTM layers. By analyzing gesture video frames, we aim to accurately translate ASL signs into English words, thereby bridging the communication gap between ASL users and non-users.
+
+**METHODOLOGY**
+
+1. **Feature Extraction**: Feature vectors are extracted using InceptionResNetV2, which are then passed to the model for further processing.
+
+2. **Object Classification**: Video frames are classified into objects using InceptionResNetV2. Subsequently, key points are created and stacked for video frames.
+
+3. **Model Architecture**: The model consists of LSTM and GRU layers arranged in a sequential manner to capture semantic dependencies effectively. Dropout is employed to reduce overfitting and improve generalization ability.
+
+4. **Training**: The model is trained using appropriate hyperparameters and the softmax function is utilized to obtain the final output.
 
 <div class="row justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0 text-center">
@@ -46,6 +54,13 @@ The following figure is a graphical representation of the model :
     </div>
 </div>
 <div class="caption">
-    CNN model pipeline used for the ASL recognition task
+    Graphical representation of the CNN model pipeline used for the ASL recognition task
 </div>
 
+**RESULTS**
+
+The trained ASL recognition model demonstrates promising results in accurately detecting and translating ASL gestures into English words. By leveraging CNN and LSTM layers, the model effectively captures the nuances of ASL, including variations in signing styles and non-manual components such as facial expressions and body movements.
+
+**CONCLUSION**
+
+In conclusion, this project highlights the effectiveness of CNN and LSTM-based models in ASL detection tasks. By accurately interpreting ASL gestures from video feeds, this technology has the potential to significantly improve communication and accessibility for ASL users in various social and professional settings. Further advancements in this field could lead to even greater inclusivity and understanding between ASL users and non-users.

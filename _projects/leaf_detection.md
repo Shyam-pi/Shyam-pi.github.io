@@ -3,20 +3,21 @@ layout: page
 title: Leaf Detection
 description: A YOLO based Leaf Detection pipeline to aid plant health monitoring for farm robots
 img: imgs/leaf_detection/leaf_detect.png
-importance: 5
+importance: 8
 category: Computer Vision
 related_publications: 
 ---
 
-**Title: Deep Learning for Leaf Detection: Utilizing YOLO Model with Transfer Learning**
+**INTRODUCTION**
 
-**Introduction:**
 In recent years, deep learning techniques have revolutionized the field of computer vision, enabling robust and efficient object detection in various domains. One such application is leaf detection, which plays a crucial role in fields like agriculture, botany, and environmental science. In this project, we employ the YOLO (You Only Look Once) model, a state-of-the-art deep learning architecture, for leaf detection. By utilizing transfer learning, we tailor the model to our specific leaf dataset, enhancing its performance and adaptability.
 
-**Objective:**
+**OBJECTIVE**
+
 The primary objective of this project is to develop an accurate and efficient leaf detection system using deep learning techniques. By training a YOLO model with transfer learning on a custom leaf dataset, we aim to achieve high precision in detecting and localizing leaves within images. This was developed to be used in tandem with an in-house agricultural robot with vision capabilities.
 
-**Methodology:**
+**METHODOLOGY**
+
 1. **Dataset Collection and Preprocessing:** We used a diverse dataset consisting of images containing various types of leaves in different environmental conditions from the internet. Preprocessing steps involved data augmentation techniques such as rotation, flipping, and resizing to enhance the dataset's diversity and improve model generalization.
 
 2. **Model Architecture:** We chose YOLO (You Only Look Once) as our base architecture due to its real-time processing capabilities and high accuracy. YOLO divides the input image into a grid and predicts bounding boxes and class probabilities for each grid cell simultaneously.
@@ -35,7 +36,8 @@ The primary objective of this project is to develop an accurate and efficient le
 </div>
 
 
-**Results:**
+**RESULTS**
+
 Our trained YOLO model achieved promising results in leaf detection, demonstrating high precision and recall rates. The model successfully localized leaves within images across various backgrounds and lighting conditions. Additionally, the transfer learning approach enabled efficient training with limited annotated data, showcasing the adaptability of deep learning techniques to domain-specific tasks.
 
 <div class="row">
@@ -51,5 +53,6 @@ Our trained YOLO model achieved promising results in leaf detection, demonstrati
 </div>
 
 
-**Conclusion:**
+**CONCLUSION**
+
 In conclusion, this project demonstrates the effectiveness of deep learning, specifically the YOLO model with transfer learning, in leaf detection tasks. By leveraging the power of convolutional neural networks and transfer learning, we have developed a robust and adaptable solution for automated leaf detection. This technology holds great potential in various fields, offering opportunities for innovation and advancement in agricultural, botanical, and environmental research domains.
