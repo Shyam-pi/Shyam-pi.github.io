@@ -7,7 +7,9 @@ importance: 1
 category: Computer Vision
 ---
 
-Note: For a more detailed overview of this project please click on this <a href='https://drive.google.com/file/d/1yn0MjJ9-HBUXjE_IMaKfhP4hUs6p00ui/view'>link</a>.
+**Note**: For a more detailed overview of this project please click on this <a href='https://drive.google.com/file/d/1yn0MjJ9-HBUXjE_IMaKfhP4hUs6p00ui/view'>link</a>.
+
+**Codes**: Coming soon!
 
 **INTRODUCTION**
 
