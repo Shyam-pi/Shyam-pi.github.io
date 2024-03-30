@@ -1,0 +1,7 @@
+**DANCE**
+
+That's a very short part of a video of my last ever dance performance as an Undergrad. I think I started dancing for fun when I and my friends tried to copy some popping dance moves from some reality dance show on the TV. My body randomly grooving with some dance move to some random music playing in my brain has been quite a common occurence over the years.
+
+I've never been professionally trained in dance, but I tried twice to be a part of a competitive dance team. The first time, I got very nervous and my body stiffened up (and the only thing popping was my brain 🤯). The second time, I had to learn a one minute choreo as a part of the induction process, and I was amidst people who have been professionally coached for > 10 years, who picked it up within 5 minutes. Then there was poor me, still trying to figure out where my left leg should go at the 31st second of the choreo.
+
+Jokes apart, I love dancing and how it makes me feel. I have quite an interesting relationship with it as well. I am way too shy to dance in front of people I know, but I can absolutely go and dance my heart out on a stage in front of a crowd. In times like these it becomes rather difficult for me to understand myself.

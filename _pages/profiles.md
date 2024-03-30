@@ -43,6 +43,20 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>30th Sep, 2023</p>
+    
+  - align: left
+    image: shyam_dance.gif
+    content: dance_shyam.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>29th Jan, 2020</p>
+
+  - align: right
+    image: shyam_art.jpg
+    content: art_shyam.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>8th Oct, 2023</p>
 
   - align: left
     image: aquarium_1.jpg
