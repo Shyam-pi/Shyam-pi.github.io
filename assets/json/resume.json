@@ -137,7 +137,60 @@
       "location":"Rajasthan, India"
     }
   ],
-  "extracurricular": [{
+  "achievements": [
+    {
+      "title": "All India Rank 1073 in JEE Mains out of 1.2 million candidates",
+      "date": "2016",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Top 0.04 percentile in JEE Advanced, entrance exams to prestigious IITs",
+      "date": "2016",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python (advanced)", "C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)", "C (beginner)"]
+    },
+    {
+      "name": "ML and CV tools",
+      "keywords": ["PyTorch", "PyTorch3D", "Keras", "Scikit", "NumPy", "OpenCV", "Pandas"]
+    },
+    {
+      "name": "CV Applications",
+      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation"]
+    },
+    {
+      "name": "Development Tools",
+      "keywords": ["ROS", "Unity", "Gazebo", "Simulink", "RViz", "Carla", "Colab", "Java Server Pages", "HTML"]
+    }
+
+  ],
+
+  "certificates": [],
+
+  "publications": [{
+    "name": "LINK",
+    "summary": "",
+    "highlights": [],
+    "startDate": "Webpage",
+    "endDate": "",
+    "url": "https://shyam-pi.github.io/publications/"
+  }],
+  
+  "projects": [{
+    "name": "LINK",
+    "summary": "",
+    "highlights": [],
+    "startDate": "Webpage",
+    "endDate": "",
+    "url": "https://shyam-pi.github.io/projects/"
+  }],
+  "extracurriculars": [{
     "organization": "University of Maryland (UMD), College Park, USA",
     "position": "Collegiate Badminton Player",
     "url": "",
@@ -178,58 +231,7 @@
     "summary": "Responsible for managing 40+ volunteers and organizing events throughout the year 2017-2018 for PTM, the Tamil Culutral Association of BITS Pilani. Was also an annual dance performer for PTM in BITS Pilani's annual cultural events",
     "highlights": []
   }],
-  "achievements": [
-    {
-      "title": "All India Rank 1073 in JEE Mains out of 1.2 million candidates",
-      "date": "2016",
-      "awarder": "",
-      "summary": ""
-    },
-    {
-      "title": "Top 0.04 percentile in JEE Advanced, entrance exams to prestigious IITs",
-      "date": "2016",
-      "awarder": "",
-      "summary": ""
-    }
-  ],
 
-  "certificates": [],
-
-  "publications": [{
-    "name": "LINK",
-    "summary": "",
-    "highlights": [],
-    "startDate": "Webpage",
-    "endDate": "",
-    "url": "https://shyam-pi.github.io/publications/"
-  }],
-  "projects": [{
-    "name": "LINK",
-    "summary": "",
-    "highlights": [],
-    "startDate": "Webpage",
-    "endDate": "",
-    "url": "https://shyam-pi.github.io/projects/"
-  }],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "keywords": ["Python (advanced)", "C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)", "C (beginner)"]
-    },
-    {
-      "name": "ML and CV tools",
-      "keywords": ["PyTorch", "PyTorch3D", "Keras", "Scikit", "NumPy", "OpenCV", "Pandas"]
-    },
-    {
-      "name": "CV Applications",
-      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation"]
-    },
-    {
-      "name": "Development Tools",
-      "keywords": ["ROS", "Unity", "Gazebo", "Simulink", "RViz", "Carla", "Colab", "Java Server Pages", "HTML"]
-    }
-
-  ],
   "languages": [
     {
       "language": "Tamil",
