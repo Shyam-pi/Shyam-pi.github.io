@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Transformer Robot for Picking & Placing
-description: End-to-end modelling of a mobile manipulator integrated with ROS package for joint control to simulate an autonomous pick & place task in Gazebo
-img: imgs/transformer_robot.png
-importance: 4
+title: Turtlebot Map Navigation and Parts Search
+description: C++ based ROS project which makes a TurtleBot3 navigate a map in Gazebo using logical cameras and search for parts spread out in the map 
+img: imgs/parts_search.png
+importance: 6
 category: Robotics
-redirect: https://drive.google.com/file/d/1jX-7FpRhv3uySWss2hC3RVI2TndPfEy5/view?usp=sharing
+redirect: https://github.com/Shyam-pi/TurtleBot-Map-Navigation-and-Parts-Search
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

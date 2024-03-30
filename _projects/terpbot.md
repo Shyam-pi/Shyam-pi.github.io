@@ -1,7 +1,7 @@
 ---
 layout: page
-title: TerpBot
-description: A RaspberryPi based Unicycle Mobile Robot built from scratch
+title: Unicycle Kinematics based mobile robot - TerpBot
+description: A RaspberryPi based Unicycle Mobile Robot using wheel odometry and monocular perception, built from scratch
 img: imgs/terpbot/hardware.png
 importance: 1
 category: Robotics

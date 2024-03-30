@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Transformer Robot for Picking & Placing
-description: End-to-end modelling of a mobile manipulator integrated with ROS package for joint control to simulate an autonomous pick & place task in Gazebo
-img: imgs/transformer_robot.png
-importance: 4
+title: Dijkstra Path Planning
+description: Dijkstra Planning algorithm implementation for a Mobile Point Robot
+img: imgs/dijkstra.gif
+importance: 9
 category: Robotics
-redirect: https://drive.google.com/file/d/1jX-7FpRhv3uySWss2hC3RVI2TndPfEy5/view?usp=sharing
+redirect: https://github.com/Shyam-pi/Dijkstra-Path-Planning
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

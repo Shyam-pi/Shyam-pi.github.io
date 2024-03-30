@@ -6,7 +6,7 @@
     "email": "shyampi@terpmail.umd.edu",
     "phone": "(240) 398-0284",
     "url": "",
-    "summary": "An aspiring Computer Vision engineer with solid Mathematical and Programming fundamentals, and a strong inclination towards research based work.",
+    "summary": "An aspiring Machine Learning / Computer Vision engineer with solid Mathematical and Programming fundamentals, and a strong inclination towards research based work.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -22,6 +22,7 @@
       }
     ]
   },
+  "interests": [],
   "experience": [
     {
       "name": "Centre for Robotics & Intelligent Systems - BITS Pilani",
@@ -66,7 +67,7 @@
       "position": "Graduate Student Researcher",
       "url": "https://jbhuang0604.github.io/#group",
       "startDate": "02-2023",
-      "endDate": "Present",
+      "endDate": "08-2023",
       "summary": "",
       "highlights": [
         "Working on CLIP based generation of animations along with their 3D mesh using GAN Inversion and 3D-GAN."
@@ -86,7 +87,6 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland, College Park",
@@ -97,8 +97,17 @@
       "endDate": "06-2024",
       "score": "4.00",
       "courses": [
-        "Teaching Assistant ENME272 - Computer Aided Design, Spring 2023",
-        "Collegiate Badminton Team player"
+        "Foundations of Deep Learning (Ongoing)",
+        "Cognitive Robotics (Ongoing)",
+        "3D Vision",
+        "Robot Programming using C++",
+        "Human Robot Interaction",
+        "Advances in Extended Reality (XR)",
+        "Perception in Robots",
+        "Path Planning in Robots",
+        "Adv. Geometric Computer Vision",
+        "Control of Robotics Systems",
+        "Intro. to Robot Modelling"
       ],
       "location":"Maryland, USA"
     },
@@ -111,12 +120,64 @@
       "endDate": "07-2022",
       "score": "8.20",
       "courses": [
-        "President - Pilani Tamil Mandram, Tamil cultural organization",
-        "Collegiate Track & Field athlete"
+        "Machine Learning",
+        "Object Oriented Programming using JAVA",
+        "Intro. to Programming using C",
+        "Intro. to Robotics",
+        "Computer Aided Design (CAD)",
+        "Finite Element Methods (FEM)",
+        "Solid Mechanics",
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Mechanical Vibrations",
+        "Calculus I, II, III and IV",
+        "Probability and Statistics",
+        "Linear Algebra"
       ],
       "location":"Rajasthan, India"
     }
   ],
+  "extracurricular": [{
+    "organization": "University of Maryland (UMD), College Park, USA",
+    "position": "Collegiate Badminton Player",
+    "url": "",
+    "startDate": "07-2023",
+    "endDate": "Present",
+    "summary": "Badminton Doubles player representing UMD in collegiate level competitions in the US",
+    "highlights": []
+  },{
+    "organization": "Happiee Souls NGO, Chennai, India",
+    "position": "Volunteer Tutor",
+    "url": "",
+    "startDate": "08-2021",
+    "endDate": "06-2022",
+    "summary": "Mentored a batch of underprivileged kids taken care of by the NGO who lacked access to basic education, and tutored them in Mathematics, Science and English",
+    "highlights": []
+  },{
+    "organization": "BITS Pilani, Rajasthan, India",
+    "position": "Collegiate Track and Field Athlete",
+    "url": "",
+    "startDate": "08-2016",
+    "endDate": "05-2020",
+    "summary": "Represented BITS Pilani in several collegiate and open meets. Medal winner in various 100m, 200m, 4x100m and long Jump events",
+    "highlights": []
+  },{
+    "organization": "Pixxel - Student Nanosatellite team, BITS Pilani",
+    "position": "Student Mechanical Engineer",
+    "url": "",
+    "startDate": "07-2018",
+    "endDate": "04-2019",
+    "summary": "Responsible for the simulation of structural and thermal interactions between the space environment and nanosatellites, which were to be launched with the help of Indian Space Research Organization (ISRO) to provide affordable satellite imagery",
+    "highlights": []
+  },{
+    "organization": "Pilani Tamil Mandram (PTM), BITS Pilani",
+    "position": "President and Cultural Performer",
+    "url": "",
+    "startDate": "08-2016",
+    "endDate": "05-2020",
+    "summary": "Responsible for managing 40+ volunteers and organizing events throughout the year 2017-2018 for PTM, the Tamil Culutral Association of BITS Pilani. Was also an annual dance performer for PTM in BITS Pilani's annual cultural events",
+    "highlights": []
+  }],
   "achievements": [
     {
       "title": "All India Rank 1073 in JEE Mains out of 1.2 million candidates",
@@ -134,8 +195,22 @@
 
   "certificates": [],
 
-  "publications": [],
-
+  "publications": [{
+    "name": "LINK",
+    "summary": "",
+    "highlights": [],
+    "startDate": "Webpage",
+    "endDate": "",
+    "url": "https://shyam-pi.github.io/publications/"
+  }],
+  "projects": [{
+    "name": "LINK",
+    "summary": "",
+    "highlights": [],
+    "startDate": "Webpage",
+    "endDate": "",
+    "url": "https://shyam-pi.github.io/projects/"
+  }],
   "skills": [
     {
       "name": "Programming Languages",
@@ -147,7 +222,7 @@
     },
     {
       "name": "CV Applications",
-      "keywords": ["Generative Models", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation"]
+      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation"]
     },
     {
       "name": "Development Tools",
@@ -162,7 +237,7 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Bilingual proficiency"
     },
     {
       "language": "Hindi",
@@ -173,7 +248,5 @@
       "fluency": "Beginner"
     }
   ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  "references": []
 }

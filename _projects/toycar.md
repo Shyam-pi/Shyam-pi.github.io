@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Transformer Robot for Picking & Placing
-description: End-to-end modelling of a mobile manipulator integrated with ROS package for joint control to simulate an autonomous pick & place task in Gazebo
-img: imgs/transformer_robot.png
-importance: 4
+title: Toycar Modeling
+description: End-to-end modelling of a toycar and teleoperational control of the same
+img: imgs/toycar.png
+importance: 8
 category: Robotics
-redirect: https://drive.google.com/file/d/1jX-7FpRhv3uySWss2hC3RVI2TndPfEy5/view?usp=sharing
+redirect: https://drive.google.com/file/d/1NMDQ-wgTuKGEHRXroEfo4IG3BAGaFvuG/view?usp=drive_link
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
