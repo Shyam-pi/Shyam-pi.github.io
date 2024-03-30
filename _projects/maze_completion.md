@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turtlebot Aruco based Maze Completion
-description: A C++ based ROS package which makes a TurtleBot3 complete a maze by detecting and using aruco markers' information in Gazebo  
+description: C++ based ROS package which makes a TurtleBot3 complete a maze by detecting and using aruco markers' information in Gazebo  
 img: imgs/maze_completion.png
 importance: 5
 category: Robotics

@@ -3,7 +3,13 @@ github_users:
 
 github_repos:
   - vedran97/plan-percep-ws
-  - shyam-pi/vr-hostage-rescue-game
-  - shyam-pi/playing-atari-with-deep-reinforcement-learning
-  - shyam-pi/yolo-based-leaf-detection-network
-  - shyam-pi/classical-computer-vision
+  - shyam-pi/Point-Cloud-Classification-and-Segmentation
+  - shyam-pi/Volume-Rendering-and-Neural-Radiance-Fields
+  - shyam-pi/Single-Image-to-3D-with-3D-Ground-Truth
+  - shyam-pi/Panoramic-Image-Stitching-using-Homography
+  - shyam-pi/TurtleBot-Aruco-based-Maze-Completion
+  - Safety-Critical-Control-WIRIN/sccav_cbf
+  - shyam-pi/TurtleBot-Map-Navigation-and-Parts-Search
+  - shyam-pi/Stereo-Vision-System
+  - shyam-pi/YOLO-based-Leaf-Detection-Network
+ 
