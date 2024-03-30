@@ -1,0 +1,5 @@
+**ART**
+
+As a child, my mother was my go-to for art projects in school, and she is so creative and skilled at it. I always looked up to her and wanted to be good at art just like her (key note - 'wanted to be' 😮‍💨). I loved pencil sketches while I was still in middle school, and would always draw some fighter plane (inspired from some film), fish (from my own aquarium) or ship (inspired from Pirates of the Carribean) on my notebooks. But over the years, as life took its course, this interest of mine sort of died down.
+
+Fast forward, I'm surrounded by close friends who are passionate about and are very skilled at art. I did my first artwork in almost 10 years (and first ever painting, I think), because these blessed souls decided to organize a 'Paint Nite' with me. The theme was 'Halloween' and I decided to paint a cat (I'm surrounded by cat enthusiasts, and the influence has kinda rubbed off) sitting on a Halloween pumpkin with the help of an image from the internet. Absolutely 10/10 tranquil and immersive experience, thoroughly loved it, and definitely something I'd love to put in some time as a hobby in the future.
