@@ -404,8 +404,8 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - general
-  - experience
   - education
+  - experience
   - publications
   - projects
   - extracurriculars

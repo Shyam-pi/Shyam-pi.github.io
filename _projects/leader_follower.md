@@ -17,7 +17,7 @@ Click on the following image to get redirected to a demo video of the project. I
 <div class="row justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0 text-center">
         <a href="https://www.youtube.com/watch?v=kOSTu5ZXVmQ&ab_channel=Shyam">
-            {% include figure.html path="imgs/rrt_star/demo.png" title="leader-follower Demo" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="imgs/leader_follower/demo.png" title="leader-follower Demo" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>

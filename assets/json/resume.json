@@ -23,6 +23,56 @@
     ]
   },
   "interests": [],
+  "education": [
+    {
+      "institution": "University of Maryland, College Park",
+      "url": "https://umd.edu/",
+      "area": "GPA : 4.00/4.00",
+      "studyType": "M.Eng. in Robotics",
+      "startDate": "08-2022",
+      "endDate": "06-2024",
+      "score": "4.00",
+      "courses": [
+        "Foundations of Deep Learning (Ongoing)",
+        "Cognitive Robotics (Ongoing)",
+        "3D Vision",
+        "Robot Programming using C++",
+        "Human Robot Interaction",
+        "Advances in Extended Reality (XR)",
+        "Perception in Robots",
+        "Path Planning in Robots",
+        "Adv. Geometric Computer Vision",
+        "Control of Robotics Systems",
+        "Intro. to Robot Modelling"
+      ],
+      "location":"Maryland, USA"
+    },
+    {
+      "institution": "BITS Pilani, Pilani campus",
+      "url": "https://www.bits-pilani.ac.in/",
+      "area": "GPA : 8.20/10.00",
+      "studyType": "B.Eng.(Hons.) in Mechanical Engineering",
+      "startDate": "08-2016",
+      "endDate": "07-2020",
+      "score": "8.20",
+      "courses": [
+        "Machine Learning",
+        "Object Oriented Programming using JAVA",
+        "Intro. to Programming using C",
+        "Intro. to Robotics",
+        "Computer Aided Design (CAD)",
+        "Finite Element Methods (FEM)",
+        "Solid Mechanics",
+        "Fluid Mechanics",
+        "Heat Transfer",
+        "Mechanical Vibrations",
+        "Calculus I, II, III and IV",
+        "Probability and Statistics",
+        "Linear Algebra"
+      ],
+      "location":"Rajasthan, India"
+    }
+  ],
   "experience": [
     {
       "name": "Centre for Robotics & Intelligent Systems - BITS Pilani",
@@ -85,56 +135,6 @@
         "Working on embedded deployment of the model on a Renesas Edge device.",
         "Contributing to the company’s automated AI deployment software."
       ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Maryland, College Park",
-      "url": "https://umd.edu/",
-      "area": "GPA : 4.00/4.00",
-      "studyType": "M.Eng. in Robotics",
-      "startDate": "08-2022",
-      "endDate": "06-2024",
-      "score": "4.00",
-      "courses": [
-        "Foundations of Deep Learning (Ongoing)",
-        "Cognitive Robotics (Ongoing)",
-        "3D Vision",
-        "Robot Programming using C++",
-        "Human Robot Interaction",
-        "Advances in Extended Reality (XR)",
-        "Perception in Robots",
-        "Path Planning in Robots",
-        "Adv. Geometric Computer Vision",
-        "Control of Robotics Systems",
-        "Intro. to Robot Modelling"
-      ],
-      "location":"Maryland, USA"
-    },
-    {
-      "institution": "BITS Pilani, Pilani campus",
-      "url": "https://www.bits-pilani.ac.in/",
-      "area": "GPA : 8.20/10.00",
-      "studyType": "B.Eng.(Hons.) in Mechanical Engineering",
-      "startDate": "08-2016",
-      "endDate": "07-2022",
-      "score": "8.20",
-      "courses": [
-        "Machine Learning",
-        "Object Oriented Programming using JAVA",
-        "Intro. to Programming using C",
-        "Intro. to Robotics",
-        "Computer Aided Design (CAD)",
-        "Finite Element Methods (FEM)",
-        "Solid Mechanics",
-        "Fluid Mechanics",
-        "Heat Transfer",
-        "Mechanical Vibrations",
-        "Calculus I, II, III and IV",
-        "Probability and Statistics",
-        "Linear Algebra"
-      ],
-      "location":"Rajasthan, India"
     }
   ],
   "achievements": [
