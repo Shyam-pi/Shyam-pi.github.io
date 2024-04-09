@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hostage Rescue Game
-description: A 3D VR game running on unity engine which simulates a hostage rescue mission
+description: A Virtual Reality game based on unity engine which simulates a hostage rescue mission
 img: imgs/vr_rescue.png
 redirect: https://sites.google.com/view/vr-hostage-rescue-game/final-report?authuser=2
 importance: 1
