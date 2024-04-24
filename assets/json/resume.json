@@ -73,6 +73,45 @@
       "location":"Rajasthan, India"
     }
   ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python (advanced)", "C/C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)"]
+    },
+    {
+      "name": "ML and CV tools",
+      "keywords": ["PyTorch", "PyTorch3D", "TensorFlow", "Keras", "Scikit", "Open3D", "NumPy", "OpenCV", "Pandas"]
+    },
+    {
+      "name": "CV Applications",
+      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation", "Image Segmentation", "Object Detection"]
+    },
+    {
+      "name": "Development Utilities",
+      "keywords": ["ROS", "Git/Github", "Linux","Unity", "Gazebo", "Blender", "Docker", "SolidWorks", "Carla", "Java Server Pages", "Google Colab", "HMTL"]
+    }
+
+  ],
+
+  "certificates": [
+    {
+      "icon": "fa fa-certificate",
+      "name": "Getting Started with Accelerated Computing in CUDA C/C++ by Nvidia",
+      "issuer": "",
+      "date": "",
+      "url": "https://learn.nvidia.com/certificates?id=wucs-u1nRy-lP8h0bps7VQ",
+      "items": [
+      ]
+    },
+    {
+      "icon": "fa fa-certificate",
+      "name": "Scaling Workloads Across Multiple GPUs with CUDA C++ by Nvidia",
+      "issuer": "",
+      "date": "",
+      "url": "https://learn.nvidia.com/certificates?id=R7XnesNrR0mmUIPZQEkmyg",
+      "items": []
+    }
+  ],
   "experience": [
     {
       "name": "Centre for Robotics & Intelligent Systems - BITS Pilani",
@@ -155,27 +194,6 @@
       "summary": ""
     }
   ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "keywords": ["Python (advanced)", "C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)", "C (beginner)"]
-    },
-    {
-      "name": "ML and CV tools",
-      "keywords": ["PyTorch", "PyTorch3D", "Keras", "Scikit", "NumPy", "OpenCV", "Pandas"]
-    },
-    {
-      "name": "CV Applications",
-      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation"]
-    },
-    {
-      "name": "Development Tools",
-      "keywords": ["ROS", "Unity", "Gazebo", "Simulink", "RViz", "Carla", "Colab", "Java Server Pages", "HTML"]
-    }
-
-  ],
-
-  "certificates": [],
 
   "publications": [{
     "name": "LINK",
