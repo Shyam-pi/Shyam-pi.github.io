@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Playing Atari with Deep Reinforcement Learning
-description: Re-implementation of the famous Deep Reinforcement Learning paper from scratch for playing multiple Atari games
-img: imgs/atari-envs.gif
-importance: 3
+title: PPO, DQN and Dueling DQN for Kuka Pick & Place
+description: Implementation of PPO, DQN and Dueling DQN RL algorithms for Kuka pick and place task in PyBullet using OpenAI gym 
+img: imgs/kuka.gif
+importance: 2
 category: General AI
 related_publications: einstein1956investigations, einstein1950meaning
-redirect: https://github.com/Shyam-pi/Playing-Atari-with-Deep-Q-Learning
+redirect: https://github.com/Shyam-pi/RL-for-KUKA-pick-and-place
 ---
 
 <!-- Every project has a beautiful feature showcase page.
