@@ -96,9 +96,18 @@
   "certificates": [
     {
       "icon": "fa fa-certificate",
+      "name": "Generative AI with Large Language Models",
+      "issuer": "DeepLearning.ai",
+      "date": "05-2024",
+      "url": "https://coursera.org/share/5c2b0f0894f37930c52ecb93fa1ff51f",
+      "items": [
+      ]
+    },
+    {
+      "icon": "fa fa-certificate",
       "name": "Getting Started with Accelerated Computing in CUDA C/C++ by Nvidia",
-      "issuer": "",
-      "date": "",
+      "issuer": "Nvidia Deep Learning Institute",
+      "date": "04-2024",
       "url": "https://learn.nvidia.com/certificates?id=wucs-u1nRy-lP8h0bps7VQ",
       "items": [
       ]
@@ -106,8 +115,8 @@
     {
       "icon": "fa fa-certificate",
       "name": "Scaling Workloads Across Multiple GPUs with CUDA C++ by Nvidia",
-      "issuer": "",
-      "date": "",
+      "issuer": "Nvidia Deep Learning Institute",
+      "date": "04-2024",
       "url": "https://learn.nvidia.com/certificates?id=R7XnesNrR0mmUIPZQEkmyg",
       "items": []
     }
@@ -131,12 +140,11 @@
       "url": "https://www.iiitb.ac.in/",
       "startDate": "01-2021",
       "endDate": "08-2021",
-      "summary": "",
+      "summary": "Perception stack and prototype development for autonomous farm robot.",
       "highlights": [
         "Developed a YOLO-based object detection model for plant leaf counting, enhancing crop health monitoring for a farm robot.",
-        "Led the development of deep learning models to detect and track fast-moving objects, such as coins in a carrom game.",
-        "Designed and 3D-printed essential parts for the farm robot, contributing to prototype development.",
-        "Mentored a team of five interns in modeling an autonomous robotic assembly line."
+        "Contributed to the development of a deep learning model to detect and track fast-moving objects, such as coins in a carrom game.",
+        "Led a team of 5 interns to design and 3D-print essential parts for the farm robot, contributing to prototype development."
       ]
     },
     {
@@ -145,11 +153,11 @@
       "url": "https://cps.iisc.ac.in/",
       "startDate": "01-2022",
       "endDate": "08-2022",
-      "summary": "",
+      "summary": "3D obstacle detection and lower level control package development for autonomous vehicle",
       "highlights": [
-        "Spearheaded the development of a LIDAR-based 3D object detection model for a level-3 Autonomous Vehicle sponsored by WIPRO.",
-        "Engineered a low-level control package interfacing with the perception stack using Control Barrier Functions (CBFs) to facilitate obstacle avoidance.",
-        "Validated the controller within Carla, an autonomous driving simulator, ensuring robust performance and safety compliance."
+        "Designed a LIDAR-based 3D object detection model to enhance the autonomy of a level-3 Autonomous Vehicle sponsored by WIPRO.",
+        "Developed a low-level python control package working with the perception stack using Control Barrier Functions (CBFs) for obstacle avoidance.",
+        "Verified the controller and the 3D object detection model in Carla - an autonomous driving simulator, and published a paper on the controller."
       ]
     },
     {
@@ -158,9 +166,10 @@
       "url": "https://jbhuang0604.github.io/#group",
       "startDate": "02-2023",
       "endDate": "08-2023",
-      "summary": "",
+      "summary": "Ideation & modeling for text‑to‑3D animations project using 3D GANs, CLIP & GAN inversion",
       "highlights": [
-        "Worked on CLIP based generation of animations along with their 3D mesh using GAN Inversion and 3D-GAN."
+        "Conducted literature survey for usage of 3DGANs, GAN Inversion and CLIP models for text-to-3D animation generation.",
+        "Setup a PyTorch pipeline for integration of EG3D with GAN Inversion for text-based manipulation of the latent space using CLIP."
       ]
     },
     {
@@ -169,14 +178,13 @@
       "url": "https://www.renesas.com/us/en",
       "startDate": "05-2023",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Summary : Software development for automated AI deployment platform tailored for embedded devices",
       "highlights": [
-        "Applied advanced audio/spectral processing techniques, such as Spectral Centroid, Mel Spectrogram, and Cepstral Analysis, in tandem with ML model development and deployment for audio/1D data.",
-        "Contributed to end-to-end software engineering, focusing on Machine Learning and CNN pipelines, to support the company’s automated AI deployment software.",
-        "Researched and executed pyTorch model size optimization through weight matrix decomposition, achieving an average size reduction of 52%.",
-        "Collaborated with cross-functional teams to enhance deployment efficiency and ensure seamless integration with existing cloud infrastructure.",
-        "Implemented rigorous testing procedures, including unit tests and integration tests, to ensure the software's robustness and reliability.",
-        "Developed an SVM-based anti-spoofing model capable of rejecting spoof inputs within voice authentication systems with an accuracy of 96%. Additionally, deployed the model on a Renesas Edge Device."
+        "End-to-end development of ML and CNN pipelines using PyTorch and Scikit for automated embedded AI deployment Python software.",
+        "Researched and implemented PyTorch model size optimization using weights decomposition, achieving a 52% size reduction.",
+        "Implemented rigorous testing procedures like unit tests, integrated with CI/CD pipelines using Git, to ensure robustness & flexibility.",
+        "Collaborated to deploy & integrate ML pipeline into cloud infrastructure within an MLOps cycle, following Agile development methodology.",
+        "Developed SVM-based anti-spoofing model with 96% accuracy (in-house dataset) and deployed it on a Renesas embedded device."
       ]
     }
   ],
