@@ -79,16 +79,16 @@
       "keywords": ["Python (advanced)", "C/C++ (intermediate)", "C# (intermediate)", "MATLAB (beginner)", "Java (beginner)"]
     },
     {
+      "name" : "Domain Skills",
+      "keywords": ["Computer Vision", "Robotics", "Machine Learning", "VR/AR", "LLMs", "Software Development", "Reinforcement Learning", "CUDA programming"]
+    },
+    {
       "name": "ML and CV tools",
       "keywords": ["PyTorch", "PyTorch3D", "TensorFlow", "Keras", "Scikit", "Open3D", "NumPy", "OpenCV", "Pandas"]
     },
     {
-      "name": "CV Applications",
-      "keywords": ["Generative Modeling ", "Implicit Neural Representation", "3D Reconstruction", "Object Detection and Tracking", "2D to 3D modelling", "Depth Estimation", "Image Segmentation", "Object Detection"]
-    },
-    {
       "name": "Development Utilities",
-      "keywords": ["ROS", "Git/Github", "Linux","Unity", "Gazebo", "Blender", "Docker", "SolidWorks", "Carla", "Java Server Pages", "Google Colab", "HMTL"]
+      "keywords": ["ROS", "CUDA Programming", "Linux", "Unity", "Gazebo", "Blender", "Docker" , "Git/Github", "SolidWorks", "Carla", "Java Server Pages", "Google Colab", "HMTL"]
     }
 
   ],
@@ -242,7 +242,7 @@
     "url": "",
     "startDate": "08-2016",
     "endDate": "05-2020",
-    "summary": "Represented BITS Pilani in several collegiate and open meets. Medal winner in various 100m, 200m, 4x100m and long Jump events",
+    "summary": "Represented BITS Pilani in several collegiate and open meets. Medal winner in various 100m, 200m, 4x100m and long jump events",
     "highlights": []
   },{
     "organization": "Pixxel - Student Nanosatellite team, BITS Pilani",
