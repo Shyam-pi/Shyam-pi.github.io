@@ -10,7 +10,19 @@ related_publications:
 
 **Note:** This project was done in collaboration with <a href='https://github.com/vedran97'>Vedant Ranade</a> and <a href='https://github.com/SakshamV'>Saksham Verma</a> who were majorly responsible for the hardware setup and tuning, while I was involved predominantly with the perception stack.
 
-TerpBot is a unique unicycle mobile robot developed from the ground up, boasting a simple yet effective design. With wheel odometry and a single raspicam for perception, it navigates its surroundings with precision. Running on a Raspberry Pi 4B, TerpBot showcases the power of DIY robotics, offering a cost-effective and versatile solution for autonomous mobility. Its hardware system consists of the following parts :
+TerpBot is a unique unicycle mobile robot developed from the ground up, boasting a simple yet effective design. With wheel odometry and a raspicam based monocular depth estimation module for perception, it navigates its surroundings with precision.
+
+**Capabilities:**
+
+The TerpBot has the following capabilities :
+
+- RRT* Smart based global path planning + Potential Fields based local path planning : <a href='https://shyam-pi.github.io/projects/rrt_star/'>Link</a>
+- YOLO based detecting and following a human leader + monocular depth estimation based dynamic obstacle avoidance : <a href='https://shyam-pi.github.io/projects/leader_follower/'>Link</a>
+
+
+**Hardware System:**
+
+Running on a Raspberry Pi 4B, TerpBot showcases the power of DIY robotics, offering a cost-effective and versatile solution for autonomous mobility. Its hardware system consists of the following parts :
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
