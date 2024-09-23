@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.renesas.com/us/en'>Renesas North America Ltd.</a> | <a href='https://umd.edu/'>University of Maryland</a> | <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a> 
+subtitle: <a href='https://www.renesas.com/us/en'>Renesas Electronics America Ltd.</a> | <a href='https://umd.edu/'>University of Maryland</a> | <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a> 
 
 profile:
   align: right
