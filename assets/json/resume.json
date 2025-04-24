@@ -123,6 +123,20 @@
   ],
   "experience": [
     {
+      "name": "KPCS Systems",
+      "position": "Machine Learning Engineer",
+      "url": "https://kpcstech.com/",
+      "startDate": "10-2024",
+      "endDate": "Present",
+      "summary": "Summary : Leading deep learning, computer vision, and full-stack projects for high-profile clients, with a focus on anomaly detection, OCR, and scalable ML pipelines.",
+      "highlights": [
+        "Designed and implemented a full-stack web application integrating Airflow-based ETL pipelines and Elasticsearch, with visualizations delivered via Grafana dashboards embedded in an Angular + Node.js frontend.",
+        "Achieved 93% anomaly detection accuracy by fine-tuning LLaMA 3 and integrating sBERT with Isolation Forests on NIH’s AccessGUDID dataset — currently being productionized in NIH systems.",
+        "Fine-tuned LLaVA 1.5 7B for OCR on scanned educational documents and automated their semantic conversion into LaTeX using layout-aware parsing and structured prompt engineering.",
+        "Built containerized pipelines for deploying ML models using Docker and Kubernetes, ensuring seamless scaling and monitoring for real-time inference tasks."
+      ]
+    },
+    {
       "name": "Renesas Electronics America Inc.",
       "position": "Machine Learning Engineer Intern",
       "url": "https://www.renesas.com/us/en",

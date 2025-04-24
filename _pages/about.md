@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.renesas.com/us/en'>Renesas Electronics America Ltd.</a> | <a href='https://umd.edu/'>University of Maryland</a> | <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a> 
+subtitle: <a href='https://kpcstech.com/'>KPCS Systems</a> | <a href='https://www.renesas.com/us/en'>Renesas Electronics America Ltd.</a> | <a href='https://umd.edu/'>University of Maryland</a> | <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a> 
 
 profile:
   align: right
@@ -22,7 +22,8 @@ social: false  # includes social icons at the bottom of the page
 
 **Key Skills** : Python, C++, CUDA, PyTorch, ROS, Gazebo, Docker & Unity
 
-Welcome! I recently completed my year-long internship as an AI / ML Engineer at [Renesas Electronics America Ltd.](https://www.renesas.com/us/en), where I focused on developing lightweight ML models for Renesas Edge Devices and crafting an in-house Python software for automatic ML deployment on user data. I completed my Robotics masters program from the [James Clark School of Engineering](https://eng.umd.edu/) at the University of Maryland (UMD), College Park, in May 2024. At UMD, I worked on 3D Vision projects involving 3D GANs & GAN inversion for facial animation genAI in Spring 2023, in collaboration with [Dr. Jia-Bin Huang](https://jbhuang0604.github.io/#group) at his Vision and Learning lab.
+Welcome! I currently work as a Machine Learning Engineer at [KPCS Systems](https://kpcstech.com/), where I’m building end-to-end ML and full-stack systems — including ETL pipelines, anomaly detection systems, and large-scale OCR-to-LaTeX conversion tools powered by LLaVA and fine-tuned LLMs. I'm also involved in deploying cutting-edge AI models using Airflow, Elasticsearch, and visualization dashboards, with a focus on integrating these into AWS based web platforms for real-world impact. Previously, I completed a year-long internship as an AI / ML Engineer at [Renesas Electronics America Ltd.](https://www.renesas.com/us/en), focusing on deploying efficient ML models for Renesas Edge Devices. I also built in-house Python software for automating AI deployment workflows, and worked on model compression and acceleration for edge deployment on Renesas boards. 
+I completed my Robotics masters program from the [James Clark School of Engineering](https://eng.umd.edu/) at the University of Maryland (UMD), College Park, in May 2024. At UMD, I worked on 3D Vision projects involving 3D GANs & GAN inversion for facial animation genAI in Spring 2023, in collaboration with [Dr. Jia-Bin Huang](https://jbhuang0604.github.io/#group) at his Vision and Learning lab.
 
 Prior to my master's program, I worked as a Robotics Research Intern under [Dr. Shishir N.Y. Kolathaya](https://www.shishirny.com/) at the [Robert Bosch Centre for Cyber Physical Systems, IISc Bangalore](https://cps.iisc.ac.in/) in 2022, focusing on autonomous driving research, specifically in obstacle avoidance and lower-level control. Before that, I collaborated with [Dr. G.N. Srinivasa Prasanna](https://mahabalaganaka.iiitb.ac.in/people/prasanna.html) as a Computer Vision intern in 2021, working on Vision systems for farm robots, particularly in crop health monitoring. I earned my B.Eng. in Mechanical Engineering from [Birla Institute of Technology and Science, Pilani](https://www.bits-pilani.ac.in/), where I developed a system for estimating future paths of pedestrians in crowded environments for my Bachelor's thesis. This project used a computer vision based detection, tracking, and prediction pipeline for pedestrians, in order to augment path planning for autonomous vehicles. This experience was instrumental in shaping my interest in Robotics and Computer Vision moving forward in life.
 
