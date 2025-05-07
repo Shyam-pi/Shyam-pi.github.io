@@ -17,7 +17,7 @@ profiles:
       <p>16th Sep, 2023</p>
       
   - align: left
-    image: badminton_1.gif
+    image: badminton_new.gif
     content: badminton_shyam.md
     image_circular: false # crops the image to make it circular
     more_info: >
